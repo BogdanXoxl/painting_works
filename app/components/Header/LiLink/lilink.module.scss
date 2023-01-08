@@ -1,0 +1,17 @@
+@import "../../../../styles/variables.module";
+
+.link {
+  text-transform: uppercase;
+  padding: 0 16px 30px;
+  white-space: nowrap;
+  border-bottom: 2px solid transparent;
+
+  &:hover {
+    color: $blue;
+    border-bottom: 2px solid $blue;
+  }
+
+  @include sm {
+    padding-top: 20px;
+  }
+}
