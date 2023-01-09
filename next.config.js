@@ -5,15 +5,6 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-  async redirects() {
-    return [
-      {
-        source: "/:slug/:path*",
-        destination: "/",
-        permanent: true,
-      },
-    ];
-  },
 };
 
 module.exports = nextConfig;
