@@ -1,4 +1,4 @@
-# [Painting works](https://painting-works.vercel.app/) landing page with Next.js.
+# [Painting works](https://painting-works.vercel.app/) landing page with Next.js
 ### [Mockup in figma](https://www.figma.com/file/5jXQzCQ4158KFHrKvtjbqc/Молярно-покрасочные-работы?node-id=0%3A1&t=iYv34IeDYcglgX26-0) Designed by Sebastian._.bah
 
 <a href="https://painting-works.vercel.app/" target="_blank" rel="noreferrer"><img src="https://github.com/BogdanXoxl/painting_works/blob/main/public/painting-works-800.gif"/></a>
