@@ -1,37 +1,46 @@
-## Designed by Sebastian._.bah
-https://www.figma.com/file/5jXQzCQ4158KFHrKvtjbqc/Молярно-покрасочные-работы?node-id=0%3A1&t=iYv34IeDYcglgX26-0
+# [Painting works](https://painting-works.vercel.app/) landing page with Next.js.
+### [Mockup in figma](https://www.figma.com/file/5jXQzCQ4158KFHrKvtjbqc/Молярно-покрасочные-работы?node-id=0%3A1&t=iYv34IeDYcglgX26-0) Designed by Sebastian._.bah
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a href="https://painting-works.vercel.app/" target="_blank" rel="noreferrer"><img src="https://github.com/BogdanXoxl/painting_works/blob/main/public/painting-works-800.gif"/></a>
 
-## Getting Started
+### 🔥 About
 
-First, run the development server:
+<p>I developed a landing page for a private painting works business using SCSS, TypeScript, and Next.js. The project features an API endpoint with Nodemailer for seamless contact form submissions. This experience enhanced my skills in modern web development, including responsive design, server-side rendering (SSR), SEO optimization, client-server communication, and efficient email handling.</p>
 
-```bash
-npm run dev
-# or
+<p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a> <a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a> <a href="https://sass-lang.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sass-colored.svg" width="36" height="36" alt="Sass" /></a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored.svg" alt="Next.js" width="36px" height="36px"/></a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" /></a></p>
+
+### 🔧 Project Setup
+
+```sh
+yarn
+```
+
+### ⚙️ Compile and Hot-Reload for Development
+
+```sh
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🔨 Compile and Minify for Production
 
-You can start editing the page by modifying `pages/page.tsx`. The page auto-updates as you edit the file.
+```sh
+yarn build
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### 🪄 Lint with [ESLint](https://eslint.org/)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```sh
+yarn lint
+```
 
-## Learn More
+### 🌶️ Why This Tech Stack:
 
-To learn more about Next.js, take a look at the following resources:
+* **SCSS:** I chose SCSS for its powerful features like nesting, variables, and mixins, which make writing and maintaining CSS more efficient and organized. SCSS allows for reusable and modular styles, improving the overall maintainability of the codebase.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* **TypeScript** was selected for its ability to provide static type checking, which helps catch errors early in the development process. It enhances code quality and maintainability by offering better tooling and robust type definitions, making the development process smoother and more predictable.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+* **Next.js** was the framework of choice for its support for server-side rendering (SSR) and static site generation (SSG). These features significantly enhance the performance and SEO of the landing page. Next.js also simplifies routing and API endpoint creation, making it ideal for building modern, performant web applications.
 
-## Deploy on Vercel
+* **Nodemailer** was integrated to handle email submissions from the contact form. Its simplicity and reliability make it an excellent choice for sending emails in Node.js applications. By using Nodemailer, I ensured that users could easily reach out through the website, improving the user experience and engagement.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+By leveraging SCSS, TypeScript, Next.js, and Nodemailer, I was able to create a high-performance, maintainable, and SEO-optimized landing page that meets modern web development standards.
